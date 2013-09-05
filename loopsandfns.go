@@ -7,6 +7,8 @@ import (
 
 const delta = 1e-10
 
+/* Find the sqrt of a number x by repeating Newton's method until the
+    difference is less than a very small delta */
 func Sqrt(x float64) float64 {
 	z := x
 	for {
@@ -20,8 +22,8 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
-  vals := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-  for _, v := range vals {
-    fmt.Printf("%f\t%f\n", Sqrt(float64(v)), math.Sqrt(float64(v)))
-  }
+	vals := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	for _, v := range vals {
+		fmt.Printf("%f\t%f\n", Sqrt(float64(v)), math.Sqrt(float64(v)))
+	}
 }
