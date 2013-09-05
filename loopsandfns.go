@@ -8,7 +8,7 @@ import (
 const delta = 1e-10
 
 /* Find the sqrt of a number x by repeating Newton's method until the
-    difference is less than a very small delta */
+   difference is less than a very small delta */
 func Sqrt(x float64) float64 {
 	z := x
 	for {

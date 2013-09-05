@@ -1,8 +1,8 @@
 package main
 
 import (
-	"strings"
 	"code.google.com/p/go-tour/wc"
+	"strings"
 )
 
 // Find the count of each word in a string
