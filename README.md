@@ -1,4 +1,4 @@
 gotour_solutions
 ================
 
-Solutions to the 'A Tour of Go' problems from www.golang.org
+Solutions to the problems from tour.golang.org
